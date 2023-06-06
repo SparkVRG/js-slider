@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Yeseva+One&display=swap" rel="stylesheet">
+    <title>Слайдер на JS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="slider">
+            <div class="slider__leftside">
+                <h1 class="slider__title">COMPLETED<br>PROJECTS <span>----------</span></h1>
+                <p class="slider__description">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
+                    market we have made happy more than 1000 families</p>
+                <ul class="slider__info-list">
+                    <li class="slider__info-item slider__info-item_city">
+                        <h2 class="slider__title slider__title_info">CITY:</h2>
+                        <p class="slider__description slider__description_info">Rostov-on-Don<br>LCD admiral</p>
+                    </li>
+                    <li class="slider__info-item slider__info-item_apartment-area">
+                        <h2 class="slider__title slider__title_info">APARTMENT AREA:</h2>
+                        <p class="slider__description slider__description_info">81 m2</p>
+                    </li>
+                    <li class="slider__info-item slider__info-item_repair-time">
+                        <h2 class="slider__title slider__title_info">REPAIR TIME:</h2>
+                        <p class="slider__description slider__description_info">3.5 months</p>
+                    </li>
+                    <li class="slider__info-item slider__info-item_repair-cost">
+                        <h2 class="slider__title slider__title_info">REPAIR COST:</h2>
+                        <p class="slider__description slider__description_info">Upon request</p>
+                    </li>
+                </ul>
+                <div class="slider__control">
+                    <button class="slider__btn slider__btn-left">
+                        <img src="images/slider-arrow-left.svg" alt="Slider arrow">
+                    </button>
+                    <div class="slider__dots">
+                        <button class="slider__dot slider__dot_active"></button>
+                        <button class="slider__dot"></button>
+                        <button class="slider__dot"></button>
+                    </div>
+                    <button class="slider__btn slider__btn-right">
+                        <img src="images/slider-arrow-right.svg" alt="Slider arrow">
+                    </button>
+                </div>
+            </div>
+            <div class="slider__rightside">
+                <div class="slider__links">
+                    <a href="#" class="slider__links-item slider__links-item_active">ROSTOV-ON-DON, ADMIRAL</a>
+                    <a href="#" class="slider__links-item">SOCHI THIEVES</a>
+                    <a href="#" class="slider__links-item">ROSTOV-ON-DON, PATRIORIC</a>
+                </div>
+                <div class="slider__image">
+                    <img src="images/slider-image-1.png" alt="Slider image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
